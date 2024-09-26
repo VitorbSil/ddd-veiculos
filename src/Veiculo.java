@@ -1,5 +1,4 @@
-public class Veiculo
-{
+public class Veiculo {
     private double valorHora;
     private double valorAdicional;
     private double horas;
@@ -28,15 +27,12 @@ public class Veiculo
         this.horas = horas;
     }
 
-    public double doTotal()
-    {
+    public double doTotal() {
         double valor = valorHora + valorAdicional * (horas - 1);
         return valor;
     }
 
-    public String doViewCupom()
-    {
-
-        return "";
+    public String doViewCupom() {
+        return "Total do estacionamento:";
     }
 }

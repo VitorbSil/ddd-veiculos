@@ -1,4 +1,3 @@
-public interface ISeguroService
-{
+public interface ISeguroService {
     double doDesconto();
 }
